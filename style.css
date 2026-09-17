@@ -1,1 +1,128 @@
+body {
+  margin: 0;
+  background-color: #fbf7ee;
+  color: #1c1a16;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
 
+h1, h2, h3, h4, nav {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #c9662a;
+}
+
+header {
+  background-color: #14392b;
+  color: white;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0 0 10px 0;
+}
+
+.tagline {
+  color: #f2b705;
+  font-style: italic;
+}
+
+nav {
+  background-color: #0c241b;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  color: #14392b;
+}
+
+h3 {
+  color: #c9662a;
+}
+
+ul, ol {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #14392b;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f0e9d8;
+}
+
+figure {
+  margin: 20px 0;
+}
+
+figure img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+.recipe {
+  background-color: white;
+  border-left: 5px solid #f2b705;
+  padding: 15px 20px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #14392b;
+  color: white;
+  font-size: 13px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
